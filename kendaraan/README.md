@@ -1,5 +1,4 @@
-
-# Team Assignment
+# Personal Assignment
 
 The following source code is used as an answer to a group assignment in the object oriented programming course.
 
