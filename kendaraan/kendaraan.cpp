@@ -17,7 +17,7 @@ public:
 
 class Motor : public Kendaraan {
     public:
-    virtual void PrintInfo() {
+    void PrintInfo() {
         cout << "Informasi Kendaraan" << endl;
         cout << "Nama\t\t: Motor" << endl;
         cout << "Jumlah Roda\t: 2 Buah" << endl << endl;
@@ -26,7 +26,7 @@ class Motor : public Kendaraan {
 
 class Bajaj : public Kendaraan {
     public:
-    virtual void PrintInfo() {
+    void PrintInfo() {
         cout << "Informasi Kendaraan" << endl;
         cout << "Nama\t\t: Bajaj" << endl;
         cout << "Jumlah Roda\t: 3 Buah" << endl << endl;
